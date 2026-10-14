@@ -37,6 +37,5 @@ class PythonFileFormat(File):
             print(content)
 
 
-def process_file(file_obj, filename):
-        file_obj.read(filename)
+
 
