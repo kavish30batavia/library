@@ -40,7 +40,3 @@ class PythonFileFormat(File):
 def process_file(file_obj, filename):
         file_obj.read(filename)
 
-TextFilee=input("enter the file type")
-filename = input("Enter the filename: ")
-obj = globals()[TextFilee]() 
-process_file(obj, filename)
